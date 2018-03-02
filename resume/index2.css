@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body,html{
+    font-size: 10px;
+    
+}
+#wrapper{
+    width: 800px;
+    height: 1010px;
+    margin: 20px auto;
+}
+#container{
+    width: 800px;
+    height: 1000px;
+    width: 800px;
+    height: 100%;
+    padding: 20px 60px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 2px #000;
+}
+header{
+    margin-bottom: 20px;
+}
+header h1{
+    font-size: 2.8rem;
+    color: #5cb85c;
+}
+header #name{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+header .postBox{
+    width: 300px;
+    height: 40px;
+    background: #337ab7;
+    color:#fff;
+    border: 1px solid #337ab7;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact li{
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 20px;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+.contact li p{
+    margin-bottom: 10px;
+}
+.contact li p:nth-child(2){
+    text-align: left;
+}
+#main h3{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    font-size: 2.0rem;
+    color: #fff;
+    background: #337ab7;
+    margin-bottom: 20px;
+}
+#main ul{
+    width: 800px;
+    height: 110px;
+}
+#main ul li{
+    margin: 0 auto;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+#main ul li p{
+    font-size: 1.6rem;
+    text-indent: 20px;
+}
+#main ul li span{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #5cb85c;
+    margin-top: 10px;
+}
+.education{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    justify-content:flex-start;
+}
+.education span{
+    color: #5cb85c;
+    font-size: 1.6rem;
+    margin-left: 220px;
+    
+}
+.education p{
+    font-size: 1.6rem;
+    margin-left: 30px;
+}
+.course{
+    height: 40px;
+    line-height: 30px;
+}
+#main .project{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#main .project div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+#main .project div a{
+    width: 200px;
+    height: 70%;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+    display: block
+}
+#main .project div .definition {
+    font-size: 1.6rem;
+    width: 200px;
+    height: 58px;
+    display: block;
+    background: #fff;
+    border:none;
+}
+ 
+    
