@@ -1,0 +1,152 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,
+form,fieldset,legend,button,input,textarea,th,td  {margin:0;padding:0;}
+
+body,button,input,select,textarea{font:12px/1.5     tahoma,arial,\5b8b\4f53;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+
+address,cite,dfn,em,var{font-style:normal;}
+
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+
+small{font-size:12px;}
+
+ul,ol{list-style:none;}
+
+a{text-decoration:none;}
+
+a:hover{text-decoration:underline;}
+
+sup{vertical-align:text-top;}
+
+sub{vertical-align:text-bottom;}
+
+legend{color:#000;}
+
+fieldset,img{border:0;}
+
+button,input,select,textarea{font-size:100%;}
+
+table{border-collapse:collapse;border-spacing:0;}body {
+  background-color: #eee;
+  min-width: 1080px;
+}
+#container {
+  width: 1060px;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+#introduce,
+#main {
+  float: left;
+  width: 300px;
+  padding: 15px 15px 1500px;
+  box-sizing: border-box;
+  background: #2f2f2f;
+  line-height: 1.5;
+}
+
+#introduce .title {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#introduce .title img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
+}
+
+#introduce .title h1 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+#introduce h2 {
+  font-size: 16px;
+  color: #fff;
+}
+
+#introduce .title h2 {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#introduce .contact-title,
+.job-title {
+  padding-top: 15px;
+}
+
+#introduce .contact-title i,
+.job-title i {
+  font-size: 20px;
+  margin-right: 18px;
+  color: #fff;
+}
+
+#introduce .side-info,
+.job {
+  padding-top: 15px;
+  margin-left: 20px;
+}
+
+#introduce .side-info li,
+.job li {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+#introduce .side-info li span,
+.job li span {
+  margin-right: 6px;
+}
+
+#introduce .note {
+  padding: 40px 15px;
+  font-size: 16px;
+  line-height: 2;
+  color: #efe68f;
+}
+
+#main {
+  width: 760px;
+  padding: 15px 20px 1500px;
+  background: #fff;
+}
+
+#main .basic-info,
+.experience,
+.skill {
+  padding: 15px;
+}
+
+#main .basic-info dt,
+.experience dt,
+.skill dt {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#main .basic-info dt h2 i,
+.experience dt h2 i,
+.skill dt h2 i {
+  margin-right: 6px;
+}
+
+#main .basic-info li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 1060px;
+  height: 30px;
+  margin: 0 auto;
+}

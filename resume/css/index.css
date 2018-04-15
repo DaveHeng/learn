@@ -1,0 +1,208 @@
+@import "./reset.css";
+
+body {
+  background-color: #eee;
+  min-width: 1080px;
+}
+#container {
+  width: 1060px;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+#introduce,
+#main {
+  float: left;
+  width: 300px;
+  padding: 15px 15px 1023px;
+  box-sizing: border-box;
+  background: #2f2f2f;
+  line-height: 1.5;
+}
+
+#introduce .title {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#introduce .title img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
+}
+
+#introduce .title h1 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+#introduce h2 {
+  font-size: 16px;
+  color: #fff;
+}
+
+#introduce .title h2 {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#introduce .contact-title,
+.job-title {
+  padding-top: 15px;
+}
+
+#introduce .contact-title i,
+.job-title i {
+  font-size: 20px;
+  margin-right: 18px;
+  color: #fff;
+}
+
+#introduce .side-info,
+.job {
+  padding-top: 15px;
+  margin-left: 20px;
+}
+
+#introduce .side-info li,
+.job li {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+#introduce .side-info li span,
+.job li span {
+  margin-right: 6px;
+}
+
+#introduce .note {
+  padding: 40px 15px;
+  font-size: 16px;
+  line-height: 2;
+  color: #efe68f;
+}
+
+#main {
+  width: 760px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+#main .basic-info,
+.experience,
+.skill {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#main .basic-info dt,
+.experience dt,
+.skill dt {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#main .basic-info dt h2 i,
+.experience dt h2 i,
+.skill dt h2 i {
+  margin-right: 6px;
+}
+
+#main .basic-info li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#main .experience li h4 {
+  font-size: 18px;
+}
+
+#main .experience li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  left: -21px;
+  border-radius: 50%;
+  background-color: #4aa0e2;
+}
+#main .experience {
+  border-left: 2px solid #4aa0e2;
+}
+
+#main .experience li {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#main .experience li h4 a {
+  font-size: 14px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  width: 50px;
+  border: 1px solid #4aa0e2;
+  border-radius: 8px;
+  color: #4aa0e2;
+  margin-left: 10px;
+}
+
+#main .experience li h4 a:hover {
+  color: #fff;
+}
+
+#main .experience li div p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#main .experience li div img {
+  width: 204px;
+  margin-left: 10px;
+}
+#main .skill {
+  border-left: 2px solid #4aa0e2;
+}
+#main .skill ul li {
+  position: relative;
+}
+#main .skill ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  left: -21px;
+  border-radius: 50%;
+  background-color: #4aa0e2;
+}
+
+#main .skill ul li {
+  margin-bottom: 10px;
+}
+
+#main .skill ul li h4 {
+  font-size: 16px;
+  margin-left: 15px;
+}
+#main .skill ul li p {
+  line-height: 2;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+footer {
+  width: 1060px;
+  height: 30px;
+  margin: 0 auto;
+}
